@@ -5,11 +5,11 @@
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; IP 地址段
-10.*.*.*
+10.0.0.0/8
 100.64.*.*
 127.*.*.*
-172.16.*.*
-192.168.*.*
+172.16.0.0/12
+192.168.0.0/16
 
 ; cn 域名都不走代理
 *.cn
